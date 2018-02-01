@@ -1,0 +1,13 @@
+
+#header{
+border:  1px solid black;
+width: auto;
+}
+#content {
+  border: 1px solid red;
+  width: auto;
+}
+#footer{
+  border: 1px solid green;
+  width: auto;
+}
