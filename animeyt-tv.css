@@ -1,11 +1,29 @@
-
+div{ border: 1px solid brown; }
 #header{
 border:  1px solid black;
 width: auto;
 }
+
+
+
+
+#banner{
+  border: 2px solid red;
+}
+
+
+
+
+
 #content {
-  border: 1px solid red;
+  border: 1px solid pink;
   width: auto;
+}
+#comentarios{
+  border: 1px solid black;
+}
+#series-recientes{
+  border: 2px solid purple;
 }
 #footer{
   border: 1px solid green;
