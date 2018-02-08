@@ -2,8 +2,21 @@ div{ border: 1px solid brown; }
 #header{
 border:  1px solid black;
 width: auto;
+overflow: hidden;
+width: auto;
+height: 20%
+
+}
+ #content-logo{
+  border: 1px solid gray;
+  width: 20%;
+  float: left;
+}
+.logo{
+  border: 1px solid black
 }
 
+}
 
 
 
