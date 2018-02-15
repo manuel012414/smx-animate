@@ -16,9 +16,22 @@ width: auto;
 
 
 #content {
-  border: 1px solid pink;
+  border: 1px solid red;
   width: auto;
+
 }
+.box{
+  display:inline-block;
+  
+  top: 14%;
+  width: 150px;
+  height:100px;
+  margin:1em;
+}
+
+
+
+
 #comentarios{
   border: 1px solid black;
 }
