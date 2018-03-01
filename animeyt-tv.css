@@ -1,20 +1,44 @@
 div{ border: 1px solid brown; }
-#header{
+main{
 border:  1px solid black;
 width: auto;
 overflow: hidden;
 width: auto;
-height: 20%
-
+height: 20%;
+margin: auto;
 }
- #content-logo{
+#content-logo {
   border: 1px solid gray;
-  width: 20%;
+  width: 80px auto;
+  height: 40px;
   float: left;
 }
+#content-logo img{ max-width: 100%; }
 .logo{
-  border: 1px solid black
+  height: 40px;
+  width: 80px;
+  float: right;
+  margin: 0em;
 }
+#content-menu{
+  border: 1px solid black;
+  float: right;
+  height: 40px;
+  width: auto;
+
+}
+#buscador{
+  border: 0.5px solid black;
+  float: right;
+  width: auto;
+  height: 40px;
+}
+#buscador img{ max-width: 100%}
+.lupa{
+  height: 40px;
+  width: 40px;
+  float: right;
+  margin: 0em;
 
 }
 
@@ -23,7 +47,6 @@ height: 20%
 #banner{
   border: 2px solid red;
 }
-
 
 
 
