@@ -2,6 +2,7 @@ div{ border: 1px solid brown; }
 main{
 border:  1px solid black;
 width: auto;
+height: 40%;
 overflow: hidden;
 width: auto;
 height: 20%;
@@ -10,12 +11,12 @@ margin: auto;
 
 #content-logo {
   border: 1px solid gray;
-  width: 80px auto;
-  height: 40px;
+  width: 70px auto;
+  height: 30px;
   float: left;
 }
 #content-logo img{
-height: 40px;
+height: 30px;
 width: 80px;
 float: right;
 margin: 0em;
@@ -23,29 +24,33 @@ margin: 0em;
 #content-menu{
   border: 1px solid black;
   float: right;
-  height: 40px;
+  height: 30px;
   width: auto;
 }
 a:hover {
   background: #3ead47;
   padding: 10px;
+  margin: 0em;
 }
 
 #content-menu nav{
-  padding: 10px;
-
+  padding: 7px;
+  margin: 0em;
 }
 
 #buscador{
   border: 0.5px solid black;
   float: right;
   width: auto;
-  height: 40px;
+  height: 30px;
 }
-#buscador img{ max-width: 100%}
+#buscador input{
+  height: 30px;
+}
+#buscador img{ max-width: 100%;}
 .lupa{
-  height: 40px;
-  width: 40px;
+  height: 30px;
+  width: 30px;
   float: right;
   margin: 0em;
 
@@ -53,8 +58,16 @@ a:hover {
 
 
 
-#banner{
+#content-banner{
   border: 2px solid red;
+  width: 600px;
+  height: 250px;
+  padding: 30px;
+}
+#banner img{
+  width: 600px;
+  height: 250px;
+
 }
 
 
