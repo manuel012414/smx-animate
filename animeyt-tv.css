@@ -42,8 +42,6 @@ margin: auto;
 
 }
 
-
-
 #banner{
   border: 2px solid red;
 }
@@ -72,6 +70,7 @@ margin: auto;
 /*borde  series-recientes*/
 #series-recientes{
   border: 1px solid purple;
+  text-align: center;
 }
 /*acaba series-recientes*/
 
@@ -94,21 +93,13 @@ margin: auto;
   max-width: 100%;
 }
 
-
-
-
 /* Fa icons */
 
 .fa {
    padding: 20px;
    width: 50px;
    text-decoration: none;
-
-}
-
-
-
-/* Set a specific color for each brand */
+  }
 
 /* color Facebook */
 .fa-facebook {
