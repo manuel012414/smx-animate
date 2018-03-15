@@ -47,7 +47,9 @@ a:hover {
 #buscador input{
   height: 30px;
 }
+/*Tamaño de la imagen de lupa que esta al lado del buscador*/
 #buscador img{ max-width: 100%;}
+
 .lupa{
   height: 30px;
   width: 30px;
@@ -57,19 +59,30 @@ a:hover {
 }
 
 
-
+/*Contenedor del banner*/
 #content-banner{
- 
-  border: 2px solid red;
-  width: 600px;
+   border: 2px solid red;
+  width: auto;
   height: 250px;
   padding: 30px;
 }
+/*Tamaño de la imagen del banner*/
 #banner img{
-  width: 600px;
+  width: 500px;
   height: 250px;
-
+  float: right;
 }
+/*posición de letra*/
+#banner h2 p {
+  float: left top;
+  width: 200px;
+  height: 150px;
+}
+
+
+
+
+
 
 /*borde del contenido */
 #content {
@@ -113,7 +126,7 @@ a:hover {
 
 .clearfix { clear: both; }
 
-/* imagnes */
+/* imagines */
 .box img {
   max-width: 100%;
 }
